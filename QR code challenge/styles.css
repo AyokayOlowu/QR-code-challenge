@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100v    ;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    background-color: hsl(0deg 0% 94%);
+    transition: background-color 300ms;
+    height:100vh;
+    width: 140vmin;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 0px;
+}
+
+.Blue-box {
+    background-color: hsl(212deg 45% 89%);
+    transition: background-color 300ms;
+    height: 460px;
+    width: 790px;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.White-box {
+    background-color: white;
+    height: 280px;
+    width: 190px;
+    align-self: center;
+    border-radius: 10px;
+   
+    text-align: center;
+}
+img {
+    width: 170px;
+    height: 170px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.info {
+    font-size: 9px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h2 {
+    margin: 10px ;
+}
+span {
+    margin: auto 5px auto 5px;
+}
